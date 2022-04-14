@@ -1,0 +1,4 @@
+k top pod hello-world-794458d64d-px66s
+NAME                           CPU(cores)   MEMORY(bytes)   
+hello-world-794458d64d-px66s   1m           19Mi 
+kube-ops-view-5557846b44-tt7r8        10m          35Mi            

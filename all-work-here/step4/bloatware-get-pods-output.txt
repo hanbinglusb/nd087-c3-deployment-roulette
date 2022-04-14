@@ -1,0 +1,23 @@
+NAME                                  READY   STATUS    RESTARTS   AGE
+bloaty-mcbloatface-58c98b98d8-79kvr   1/1     Running   0          10m
+bloaty-mcbloatface-58c98b98d8-7n9z5   1/1     Running   0          34m
+bloaty-mcbloatface-58c98b98d8-9pntl   1/1     Running   0          10m
+bloaty-mcbloatface-58c98b98d8-bqkv5   1/1     Running   0          34m
+bloaty-mcbloatface-58c98b98d8-clvnn   1/1     Running   0          10m
+bloaty-mcbloatface-58c98b98d8-cwxnc   1/1     Running   0          34m
+bloaty-mcbloatface-58c98b98d8-fcdnv   1/1     Running   0          34m
+bloaty-mcbloatface-58c98b98d8-gmg47   1/1     Running   0          34m
+bloaty-mcbloatface-58c98b98d8-gz7b4   1/1     Running   0          34m
+bloaty-mcbloatface-58c98b98d8-h5lpk   1/1     Running   0          10m
+bloaty-mcbloatface-58c98b98d8-jhk7z   1/1     Running   0          10m
+bloaty-mcbloatface-58c98b98d8-kv4z5   1/1     Running   0          34m
+bloaty-mcbloatface-58c98b98d8-lfb7j   1/1     Running   0          34m
+bloaty-mcbloatface-58c98b98d8-pvmls   1/1     Running   0          34m
+bloaty-mcbloatface-58c98b98d8-tcjzf   1/1     Running   0          34m
+bloaty-mcbloatface-58c98b98d8-xgxd6   1/1     Running   0          10m
+bloaty-mcbloatface-58c98b98d8-zbf22   1/1     Running   0          34m
+kube-ops-view-5557846b44-tt7r8        1/1     Running   0          10m
+
+#---Number of running bloaty---#
+k get pods -n udacity | grep Running | grep -c bloaty 
+17
